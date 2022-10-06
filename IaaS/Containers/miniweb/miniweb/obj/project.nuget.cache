@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "rw9gGgEzsZsayohEef6qHXJScLlEM6JTrw73CIFBZupDTO+gYEbmHpy8RIYUl2RO/weI4fzCI+iPnu45jfR4Uw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\turka\\source\\repos\\Kurumsal\\Defacto\\AZ 204 Group 1\\IaaS\\Containers\\miniweb\\miniweb\\miniweb.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\turka\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.17.0\\microsoft.visualstudio.azure.containers.tools.targets.1.17.0.nupkg.sha512"
+  ],
+  "logs": []
+}
