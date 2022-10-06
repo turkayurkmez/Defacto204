@@ -26,3 +26,33 @@ az vm list-ip-addresses \
        --resource-group "bademo-vm-rg-2" \
        --name "bademo-win-cli" \
        --output table
+
+#DİKKAT!! Burada RDC bağlandık ve test ettik.
+
+#5. Çalıştığınız lab bittiğinde kaynağı siliniz.
+ az group delete --name bademo-vm-rg 
+
+#-----  UBUNTU with SSH --------------
+az vm create \
+     --resource-group "bademo-vm-rg-2" \
+     --name "bademo-linux-cli" \
+     --image "UbuntuLTS" \
+     --admin-username "demoadmin" \
+     --authentication-type "ssh" \
+     --ssh-key-value ~/.ssh/id_rsa.pub \
+     --generate-ssh-keys
+
+az vm open-port \
+     --resource-group "bademo-vm-rg-2" \
+     --name "bademo-linux-cli" \
+     --port "22" \
+
+az vm list-ip-addresses \
+       --resource-group "bademo-vm-rg-2" \
+       --name "bademo-linux-cli" \
+       --output table
+
+ssh demoadmin@51.144.84.238       
+
+#İşiniz bittikten sonra tüm kaynağı silmeyi unutmayınız!
+az group delete --name bademo-vm-rg-2
