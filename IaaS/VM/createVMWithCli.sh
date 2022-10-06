@@ -15,3 +15,14 @@ az vm create \
      --admin-username "turkay" \
      --admin-password "Pa55W0rd1234"
 
+#3. Bağlanmak istenilen port'u aç:
+az vm open-port \
+     --resource-group "bademo-vm-rg-2" \
+     --name "bademo-win-cli" \
+     --port "3389" \
+
+#4. Public IP'yi sorgulayın:
+az vm list-ip-addresses \
+       --resource-group "bademo-vm-rg-2" \
+       --name "bademo-win-cli" \
+       --output table
