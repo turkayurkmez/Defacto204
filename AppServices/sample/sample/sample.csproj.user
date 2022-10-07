@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <NameOfLastUsedPublishProfile>C:\Users\turka\source\repos\kisisel\AZ-204\HandDirty\App Service\sample\sample\Properties\PublishProfiles\tudemosql - Web Deploy.pubxml</NameOfLastUsedPublishProfile>
+    <NameOfLastUsedPublishProfile>C:\Users\turka\source\repos\Kurumsal\Defacto\AZ 204 Group 1\AppServices\sample\sample\Properties\PublishProfiles\bademoweb-stage - Web Deploy.pubxml</NameOfLastUsedPublishProfile>
   </PropertyGroup>
 </Project>

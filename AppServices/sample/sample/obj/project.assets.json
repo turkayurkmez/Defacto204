@@ -2019,11 +2019,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\turka\\source\\repos\\kisisel\\AZ-204\\HandDirty\\App Service\\sample\\sample\\sample.csproj",
+      "projectUniqueName": "C:\\Users\\turka\\source\\repos\\Kurumsal\\Defacto\\AZ 204 Group 1\\AppServices\\sample\\sample\\sample.csproj",
       "projectName": "sample",
-      "projectPath": "C:\\Users\\turka\\source\\repos\\kisisel\\AZ-204\\HandDirty\\App Service\\sample\\sample\\sample.csproj",
+      "projectPath": "C:\\Users\\turka\\source\\repos\\Kurumsal\\Defacto\\AZ 204 Group 1\\AppServices\\sample\\sample\\sample.csproj",
       "packagesPath": "C:\\Users\\turka\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\turka\\source\\repos\\kisisel\\AZ-204\\HandDirty\\App Service\\sample\\sample\\obj\\",
+      "outputPath": "C:\\Users\\turka\\source\\repos\\Kurumsal\\Defacto\\AZ 204 Group 1\\AppServices\\sample\\sample\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

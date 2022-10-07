@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "wYiS9I/nsc63YUWg1Gi83SX8FBUGpWGOq+XXAqLWmlSG1jBczEyXJpk94b36Q0ite0mZ//MMkYBjZlQ3vB3i/w==",
+  "dgSpecHash": "CXz1bIkspVwihwMkZKtAwAE6zXRYvQtDUP9aeZEAaVTw1YlpAimqYo94D3cxDYr0JAzBydmG1784ovad5IZZIw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\turka\\source\\repos\\kisisel\\AZ-204\\HandDirty\\App Service\\sample\\sample\\sample.csproj",
+  "projectFilePath": "C:\\Users\\turka\\source\\repos\\Kurumsal\\Defacto\\AZ 204 Group 1\\AppServices\\sample\\sample\\sample.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\turka\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\turka\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
