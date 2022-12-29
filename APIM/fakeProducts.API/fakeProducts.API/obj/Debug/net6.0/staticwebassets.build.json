@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "pT0L8pZ56CTuevpXUL1gQTD+vEQ7etXm5eYEA3qQ0Jk=",
+  "Source": "fakeProducts.API",
+  "BasePath": "_content/fakeProducts.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

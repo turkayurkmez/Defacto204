@@ -9,7 +9,7 @@ var connectionString = builder.Configuration.GetConnectionString("AZURE_SQL_CONN
 builder.Services.AddDbContext<SampleDbContext>(opt => opt.UseSqlServer(connectionString));
 
 var app = builder.Build();
-
+app.Services.CreateScope().ServiceProvider.GetRequiredService<SampleDbContext>().Database.EnsureCreated();
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
 {
