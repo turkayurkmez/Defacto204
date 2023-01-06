@@ -1,6 +1,6 @@
 # önce azure shell üzerine login olun
 az login
-# ardından çalışacağınız subscription'u belirtin (Özellikle Defacto hesabınızla girdiyseniz :))
+# ardından çalışacağınız subscription'u belirtin (Özellikle Kurumsal şirket hesabınızla girdiyseniz :))
 az account set --subscription "Azure Sponsorluk"
 
 #1. rg'i listeleyin
